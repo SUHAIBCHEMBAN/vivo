@@ -1,0 +1,249 @@
+*{
+margin: 0%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+box-sizing: border-box;
+}
+.background{
+    background-image: url(image/firstone.jpg);
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+
+header{
+    height:86px ;
+    width: 100%;
+    padding-bottom:10%;
+}
+.nav{
+    
+    display: flex;
+    height: 86px;
+    width: 1200px;  
+    margin: auto;
+}
+.logo{
+    height: 86px;
+    width: 104px;
+}
+.logo img{
+    height:55px ;
+    width: 104px;
+    margin-top: 15%;
+    cursor: pointer;
+}
+.navbar{
+    height:86px;
+    width:903px;
+    display: flex;
+}
+
+.navbar h4{
+    margin-top:33px;
+    margin-left:33px;
+    cursor: pointer;
+    color: rgb(104, 106, 107);
+}
+
+.user{
+    height: 86px;
+    width: 170px;
+    margin-left: 10px;
+}
+
+.user img{
+    margin-top:17%;
+    margin-left:33px;
+    height:30px;
+    width:30px;
+    cursor: pointer;
+}
+
+.banner{
+    height: 172px;
+    width: 100%;
+    
+}
+.part{
+    margin-left:6%;
+}
+.part img{
+    margin-top:6%;
+    height:60px ;
+    width: 150px;
+    cursor: pointer;
+} 
+.part h3{
+    font-size: 40px;
+    font-weight: 100;
+    cursor: pointer;
+}  
+.part p{
+    font-size: 25px;
+    font-weight: 200;
+    cursor: pointer;
+}
+.banner1{
+    height: 1194px;
+    width: 100%;
+}
+
+.part1{
+    color: white;
+    height: 527px;
+    width: 1189px;
+    background-image: url(image/second\ one.jpg);
+    background-size: cover;
+    border-radius:8px;
+    margin: auto;
+    padding-top:8%;
+}
+.space{
+    height: 47px;
+}
+.part2{
+    color: white;
+    height: 527px;
+    width: 1189px;
+    background-image: url(image/thirdone.jpg);
+    background-size: cover;
+    border-radius:8px;
+    margin: auto;
+    padding-top:8%;
+}
+
+.banner2{
+    height:900px ;
+    width: 100%;
+    padding:4%;
+}
+.banner2 p{
+    font-size: 50px;
+    font-weight:500;
+    margin-left: 20px;
+}
+.card{
+    display: flex;
+    height:750px;
+    width:1189px;
+    margin:auto;
+
+}
+.crd{
+    margin: auto;
+    height:700px;
+    width:370px;
+    padding-top: 20px;
+}
+#huge{
+    height: 640px;
+    width: 370px;
+    border-radius: 15px;
+}
+.crd img{
+    margin-top: -20px;
+    height: 275px;
+    width: 370px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.crd1{
+    height:420px;
+    width:370px;
+    background-color:white;
+    margin: auto;
+    border-radius: 8px;
+}
+.cad1 img{
+    height:239px;
+    width:375px;
+}
+.crd1 p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 550;
+}
+#small{
+    margin-top: 4px;
+}
+
+footer{
+    height: 652px;
+    width:100%;
+    background-color: black;
+    padding: 76px;
+}
+
+.content{
+    display: flex;
+    height:496px;
+    width:1189px;
+    margin: auto;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.tab{
+    height:453px;
+    width:744px;
+}
+.content table{
+    text-align: left;
+    width:744px;
+    height:448px;
+    font-weight: 500;
+}
+table th{
+    font-size: 20px;
+    color: white;
+}
+table td{
+    color: rgb(125, 128, 131);
+    font-size: 17px;
+}
+.information{
+    height:350px;
+    width:296px;
+    color: rgb(125, 128, 131);
+}
+.information img{
+    height:28px;
+    width: 28px;
+    margin-top:6px;
+}
+.num{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+}
+.share{
+    height:107px;
+    width:295px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.share img{
+    height:34px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.lastfoot{
+    display: flex;
+    height:77px;
+    width:1189px;
+    background-color:black;
+    margin: auto; 
+    justify-content: space-between;
+    padding-top:30px;
+    color: rgb(125, 128, 131); 
+}
+.end2{
+    display: flex;
+}
+.end2 img{
+    height: 25px;
+    width: 25px;
+}
